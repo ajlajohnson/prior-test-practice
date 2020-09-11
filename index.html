@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Practice Assessment</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="vending-container">
+      <p class="total">Total: $0.00</p>
+      <button class="btn" data-amount="2">Lime Cola $2.00</button>
+      <button class="btn" data-amount="3">Salted Peanuts $3.00</button>
+      <button class="btn" data-amount="4">Chocolate Bar $4.00</button>
+      <button class="btn" data-amount="6">Fruit Gummies $6.00</button>
+    </section>
+
+    <section>
+      <form class="coin-form">
+        <label for="amount">How many?</label>
+        <input type="text" name="amount" id="amount" />
+        <label for="type">Which coin?</label>
+        <select name="type" id="type">
+          <option value="penny">Penny</option>
+          <option value="nickel">Nickel</option>
+          <option value="dime">Dime</option>
+          <option value="quarter">Quarter</option>
+        </select>
+        <button>Make Money!</button>
+      </form>
+      <div class="coin-container"></div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
